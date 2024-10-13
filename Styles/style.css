@@ -82,19 +82,19 @@ body {
 }
 
 .presentacion__enlaces_link {
-    width: 50%;
-    text-align: center;
-    padding: 21.5px 0;
-    border-radius: 8px;
-    font-family: var(--fuente-montserrat);
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-decoration: none;
-    color: var(--color-secundario);
-    border: 2px solid var(--color-terciario);
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 16px;
+    border: 2px solid var(--color-terciario);
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    font-family: var(--fuente-montserrat);
+    color: var(--color-secundario);
 }
 
 .presentacion__enlaces_link:hover {
